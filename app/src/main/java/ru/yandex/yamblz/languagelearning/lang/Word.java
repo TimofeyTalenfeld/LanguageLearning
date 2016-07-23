@@ -23,6 +23,12 @@ public class Word {
         this.word = word;
     }
 
+    public Word(String word, Language language) {
+
+        this.word = word;
+        this.language = language;
+    }
+
     public String getWord() {
         return word;
     }
